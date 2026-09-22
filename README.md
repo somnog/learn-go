@@ -1,6 +1,37 @@
+<<<<<<< HEAD
 # SomNOG9 Go Workshop
 
 **Track 3: Software Development | SomNOG9, 22 September 2026**
+=======
+# Go Fundamentals: Syntax to Serverr
+
+> 📅 Tuesday, 22 September 2026 · Hands-On
+> 🔗 [github.com/somnog/learn-go](https://github.com/somnog/learn-go)
+
+---
+
+## Tutorial Details
+
+|              |                                                |
+| ------------ | ---------------------------------------------- |
+| **Name**     | Go Fundamentals: Syntax to Server              |
+| **Duration** | 4 hours                                        |
+| **Format**   | 100% hands-on — you write code the entire time |
+
+---
+
+## Overview
+
+Go (Golang) was built at Google with a clear mission: simplicity, blazing-fast execution, and effortless scale for backends and APIs. Today, it powers critical infrastructure at companies like Google, Uber, Cloudflare, Docker, and Dropbox.
+
+In this 4-hour hands-on workshop, you’ll go from installing Go to building and running a complete JSON web server on your machine.
+
+## What to Expect
+
+- 100% Hands-On: No slides, no dry lectures. You write code from minute one.
+- Real-World Examples: Every core concept is introduced through concrete, production-style patterns.
+- Interactive Exercises: Reinforce what you learn with coding challenges at every stage.
+>>>>>>> 6d915bf (Project initiated)
 
 You are building the SomNOG9 Conference Management System in Go — from variables to a running HTTP API — across four sessions. Every stage gives you pre-written tests. Your job is to write code that makes them pass.
 
@@ -8,12 +39,21 @@ You are building the SomNOG9 Conference Management System in Go — from variabl
 
 ## Sessions
 
+<<<<<<< HEAD
 | Session | Stages | Topics |
 |---------|--------|--------|
 | 1 | 0 → 2 | Setup, Variables & Types, Control Flow |
 | 2 | 3 → 4 | Slices, Maps |
 | 3 | 5 → 7 | Structs, Pointers & Errors, Interfaces |
 | 4 | 8 → 9 | Goroutines & Channels, HTTP Server |
+=======
+| Session | Stages | Topics                                 |
+| ------- | ------ | -------------------------------------- |
+| 1       | 0 → 2  | Setup, Variables & Types, Control Flow |
+| 2       | 3 → 4  | Slices, Maps                           |
+| 3       | 5 → 7  | Structs, Pointers & Errors, Interfaces |
+| 4       | 8 → 9  | Goroutines & Channels, HTTP Server     |
+>>>>>>> 6d915bf (Project initiated)
 
 ---
 
@@ -159,11 +199,19 @@ const maxAttendees = 200
 
 **Types**
 
+<<<<<<< HEAD
 | Type | Example values | Zero value |
 |------|----------------|------------|
 | `string` | `"SomNOG9"`, `"Abdi Hassan"` | `""` |
 | `int` | `1`, `50`, `2026` | `0` |
 | `bool` | `true`, `false` | `false` |
+=======
+| Type     | Example values               | Zero value |
+| -------- | ---------------------------- | ---------- |
+| `string` | `"SomNOG9"`, `"Abdi Hassan"` | `""`       |
+| `int`    | `1`, `50`, `2026`            | `0`        |
+| `bool`   | `true`, `false`              | `false`    |
+>>>>>>> 6d915bf (Project initiated)
 
 Zero value: if you declare a variable without assigning, Go sets it to that type's zero.
 
@@ -280,6 +328,10 @@ Create the file `stage2/control.go`. Declare `package stage2` at the top.
 Implement these four functions:
 
 - `TrackName(n int) string` — return the track name for 1–4, `"Unknown"` for anything else. Use `switch`.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d915bf (Project initiated)
   - 1 → `"Network Infrastructure"`
   - 2 → `"System & Services"`
   - 3 → `"Software Development"`
@@ -736,6 +788,10 @@ type Workshop struct {
 ```
 
 Implement `Describe() string` on each type:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d915bf (Project initiated)
 - `Speaker.Describe()` — must include `Name` and `Title`
 - `Session.Describe()` — must include `ID` (as a number) and `Title`
 - `Workshop.Describe()` — must include `Title` and `DurationMinutes` (as a number)
