@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Hello, GO!")
@@ -17,4 +19,14 @@ func main() {
 
 	welcome := WelcomeToSomNOG("Ahmed")
 	fmt.Println(welcome)
+
+	// Variables
+	// Strings
+	// Integers
+	// Bool
+	//
+	isOpen := true
+	var isSomNOGisOpen bool = true
+	capability := 140
+
 }
