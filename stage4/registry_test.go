@@ -3,7 +3,7 @@ package stage4_test
 import (
 	"testing"
 
-	"github.com/somnog/learn-go/stage4"
+	"github.com/somnog/learn-go/solutions/stage4"
 )
 
 // ---------------------------------------------------------------------------

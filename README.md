@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # SomNOG9 Go Workshop
 
 **Track 3: Software Development | SomNOG9, 22 September 2026**
 =======
 # Go Fundamentals: Syntax to Serverr
+=======
+# Essential Go for Real-World Programming
+>>>>>>> 6796d96 (Project initiated)
 
 > 📅 Tuesday, 22 September 2026 · Hands-On
 > 🔗 [github.com/somnog/learn-go](https://github.com/somnog/learn-go)

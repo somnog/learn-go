@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/somnog/learn-go/stage1"
+	"github.com/somnog/learn-go/solutions/stage1"
 )
 
 func TestConferenceName(t *testing.T) {
