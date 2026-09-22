@@ -26,7 +26,6 @@ In this 4-hour hands-on workshop, you’ll go from installing Go to building and
 - 100% Hands-On: No slides, no dry lectures. You write code from minute one.
 - Real-World Examples: Every core concept is introduced through concrete, production-style patterns.
 - Interactive Exercises: Reinforce what you learn with coding challenges at every stage.
-  > > > > > > > 6d915bf (Project initiated)
 
 You are building the SomNOG9 Conference Management System in Go — from variables to a running HTTP API — across four sessions. Every stage gives you pre-written tests. Your job is to write code that makes them pass.
 
@@ -230,8 +229,6 @@ Inside each function, declare at least one variable with `:=` before returning i
 go test -v ./stage1/...
 ```
 
-⏸ Wait for the presenter before moving to Stage 2.
-
 ---
 
 ## Stage 2 — Control Flow
@@ -326,8 +323,6 @@ Implement these four functions:
 go test -v ./stage2/...
 ```
 
-⏸ Wait for the presenter before moving to Stage 3.
-
 ---
 
 ## Stage 3 — Slices
@@ -394,8 +389,6 @@ Implement these six functions:
 ```bash
 go test -v ./stage3/...
 ```
-
-⏸ Wait for the presenter before moving to Stage 4.
 
 ---
 
@@ -569,8 +562,6 @@ Implement these functions and methods:
 ```bash
 go test -v ./stage5/...
 ```
-
-⏸ Wait for the presenter before moving to Stage 6.
 
 ---
 
