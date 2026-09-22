@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# SomNOG9 Go Workshop
-
-**Track 3: Software Development | SomNOG9, 22 September 2026**
-=======
-# Go Fundamentals: Syntax to Serverr
-=======
 # Essential Go for Real-World Programming
->>>>>>> 6796d96 (Project initiated)
 
 > 📅 Tuesday, 22 September 2026 · Hands-On
 > 🔗 [github.com/somnog/learn-go](https://github.com/somnog/learn-go)
@@ -35,7 +26,7 @@ In this 4-hour hands-on workshop, you’ll go from installing Go to building and
 - 100% Hands-On: No slides, no dry lectures. You write code from minute one.
 - Real-World Examples: Every core concept is introduced through concrete, production-style patterns.
 - Interactive Exercises: Reinforce what you learn with coding challenges at every stage.
->>>>>>> 6d915bf (Project initiated)
+  > > > > > > > 6d915bf (Project initiated)
 
 You are building the SomNOG9 Conference Management System in Go — from variables to a running HTTP API — across four sessions. Every stage gives you pre-written tests. Your job is to write code that makes them pass.
 
@@ -43,21 +34,13 @@ You are building the SomNOG9 Conference Management System in Go — from variabl
 
 ## Sessions
 
-<<<<<<< HEAD
+=======
 | Session | Stages | Topics |
-|---------|--------|--------|
+| ------- | ------ | -------------------------------------- |
 | 1 | 0 → 2 | Setup, Variables & Types, Control Flow |
 | 2 | 3 → 4 | Slices, Maps |
 | 3 | 5 → 7 | Structs, Pointers & Errors, Interfaces |
 | 4 | 8 → 9 | Goroutines & Channels, HTTP Server |
-=======
-| Session | Stages | Topics                                 |
-| ------- | ------ | -------------------------------------- |
-| 1       | 0 → 2  | Setup, Variables & Types, Control Flow |
-| 2       | 3 → 4  | Slices, Maps                           |
-| 3       | 5 → 7  | Structs, Pointers & Errors, Interfaces |
-| 4       | 8 → 9  | Goroutines & Channels, HTTP Server     |
->>>>>>> 6d915bf (Project initiated)
 
 ---
 
@@ -149,8 +132,6 @@ Stage 0 has no code for you to write. If it passes, your workspace is ready.
 ok  github.com/somnog/learn-go/stage0
 ```
 
-⏸ Wait for the presenter before moving to Stage 1.
-
 ---
 
 ## Stage 1 — Variables & Types
@@ -203,19 +184,11 @@ const maxAttendees = 200
 
 **Types**
 
-<<<<<<< HEAD
-| Type | Example values | Zero value |
-|------|----------------|------------|
-| `string` | `"SomNOG9"`, `"Abdi Hassan"` | `""` |
-| `int` | `1`, `50`, `2026` | `0` |
-| `bool` | `true`, `false` | `false` |
-=======
 | Type     | Example values               | Zero value |
 | -------- | ---------------------------- | ---------- |
 | `string` | `"SomNOG9"`, `"Abdi Hassan"` | `""`       |
 | `int`    | `1`, `50`, `2026`            | `0`        |
 | `bool`   | `true`, `false`              | `false`    |
->>>>>>> 6d915bf (Project initiated)
 
 Zero value: if you declare a variable without assigning, Go sets it to that type's zero.
 
@@ -332,14 +305,11 @@ Create the file `stage2/control.go`. Declare `package stage2` at the top.
 Implement these four functions:
 
 - `TrackName(n int) string` — return the track name for 1–4, `"Unknown"` for anything else. Use `switch`.
-<<<<<<< HEAD
-=======
 
->>>>>>> 6d915bf (Project initiated)
-  - 1 → `"Network Infrastructure"`
-  - 2 → `"System & Services"`
-  - 3 → `"Software Development"`
-  - 4 → `"Cybersecurity"`
+- 1 → `"Network Infrastructure"`
+- 2 → `"System & Services"`
+- 3 → `"Software Development"`
+- 4 → `"Cybersecurity"`
 
 - `CanRegister(enrolled, capacity int) bool` — return `true` if `enrolled < capacity`. Use `if`.
 
@@ -494,8 +464,6 @@ Implement these six functions:
 ```bash
 go test -v ./stage4/...
 ```
-
-⏸ Wait for the presenter before moving to Stage 5.
 
 ---
 
@@ -711,8 +679,6 @@ Implement these four functions:
 go test -v ./stage6/...
 ```
 
-⏸ Wait for the presenter before moving to Stage 7.
-
 ---
 
 ## Stage 7 — Interfaces
@@ -792,10 +758,7 @@ type Workshop struct {
 ```
 
 Implement `Describe() string` on each type:
-<<<<<<< HEAD
-=======
 
->>>>>>> 6d915bf (Project initiated)
 - `Speaker.Describe()` — must include `Name` and `Title`
 - `Session.Describe()` — must include `ID` (as a number) and `Title`
 - `Workshop.Describe()` — must include `Title` and `DurationMinutes` (as a number)
@@ -813,8 +776,6 @@ Implement these two functions:
 ```bash
 go test -v ./stage7/...
 ```
-
-⏸ Wait for the presenter before moving to Stage 8.
 
 ---
 
@@ -900,8 +861,6 @@ Import `"sync"` for `sync.WaitGroup`.
 ```bash
 go test -v ./stage8/...
 ```
-
-⏸ Wait for the presenter before moving to Stage 9.
 
 ---
 
