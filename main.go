@@ -48,6 +48,9 @@ func main() {
 	sessionInfo := session.Display()
 
 	fmt.Println(sessionInfo)
+	result := Add(10, 20)
+
+	fmt.Println(result)
 }
 
 // fmt.Println("Hello, GO!")

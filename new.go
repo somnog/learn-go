@@ -1,19 +1,11 @@
 package main
 
-import "fmt"
+import "cmp"
 
-func PrintWelcome() {
-	fmt.Println("Welcome SomNOG!")
+type B interface {
 }
 
-func Conference() string {
-	return "Welcome to the conference"
-}
-
-func Year() int {
-	return 2026
-}
-
-func WelcomeToSomNOG(name string) string {
-	return "Welcome to SomNOG, " + name
+// Generics
+func Add[T cmp.Ordered](a T, b T) T {
+	return a + b
 }
